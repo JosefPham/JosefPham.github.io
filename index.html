@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+    
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"> <a href="#"> <img src="images/josefpham-logo-primary.png"> </a> </div>
+            <ul class="menu">
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#about">About</a> </li>
+                <li> <a href="#cv">CV</a> </li>
+                <li> <a href="#project">Projects</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- home section-->
+    <div class="overlay">
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Josef Pham</div>    
+                <div class="text-3">And I'm a Software Engineer</div>
+            </div>
+        </div>
+    </section>
+    </div>
+    
+    <!-- about section-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/foto.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">My name is Josef(25yo) - a recent graduate with a BCs in Software Engineering.</div>
+                    <p>I am an honest, motivated and hardworking individual, with broad skills and experience in software development and customer service. I possess strong interpersonal skills, always strive to maintain high standards, deliver the best results, and to make a difference in my work environment.</p>
+                    <blockquote class="callout quote">
+                        He takes ownership, and always makes an extraordinary effort when he is at work . . . Josef is a hit among our employees. He is always smiling and must be described as a gift to the good working environment.
+                        <p><cite> - Lisbeth Jensen(Former boss)</cite></p>
+                        <h4 class="download"><a class="linkz" href="files/711anbefaling.pdf" target="_blank">Full recommendation here</a></h4>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cv section -->
+    <section class="cv" id="cv">
+        <div class="max-width">
+            <h2 class="title">My CV</h2>
+            <div class="cv-content">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/graduation-cap.svg">
+                        <div class="head">2017 - 2020</div>
+                        <div class="text">BCs in Software Engineering</div>
+                        <div class="subtitle">University of Southern Denmark, Odense</div>
+
+                        <ul class="list">
+                            <li>Distributed and Integrated Systems</li>
+                            <li>Software Maintenance</li>
+                            <li>Component-based Software Development</li>
+                            <li>Software System Design in a Global Context</li>
+                            <li>Organization-oriented Software Development</li>
+                            <li>Software Engineering and User-centred Design</li>                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/graduation-cap.svg">
+                        <div class="head">2015 - 2017 (4th semester)</div>
+                        <div class="text">BCs in Computer Science</div>
+                        <div class="subtitle">University of Southern Denmark, Odense</div>
+                        <ul class="list">
+                            <li>Computer Architecture and System Programming</li>
+                            <li>Database Design and Programming</li>
+                            <li>Algorithms and Data Structures</li>
+                            <li>Discrete Methods for Computer Science</li>                        
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/graduation-cap.svg">
+                        <div class="head">2015</div>
+                        <div class="text">HGs (12 week programme)</div>
+                        <div class="subtitle">Herningsholm Erhvervsskole <br> Herning</div>
+                        <ul class="list">
+                            <li>Vocational education programme in 12 weeks for General Office Skills.</li>
+                        </ul>
+                        <br>
+                        <div class="head">2011 - 2014</div>
+                        <div class="text">HTX Gymnasium</div>
+                        <div class="subtitle">EUC Lillebælt, Fredericia</div>
+                        <ul class="list">
+                            <li>Science course (Maths/Physics)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cv2-content">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/briefcase.svg">
+                        <div class="head">2016 - 2020</div>
+                        <div class="text">Shell/7-Eleven</div>
+                        <div class="subtitle">Odense</div>
+                        <ul class="list">
+                            <li>Customer Service and Sales</li>
+                            <li>Communication and Teamwork</li>                       
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/briefcase.svg">
+                        <div class="head">2014</div>
+                        <div class="text">Telemarketingbureauet</div>
+                        <div class="subtitle">Svendborg</div>
+                        <ul class="list">
+                            <li>Sales & Communication</li>                   
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/briefcase.svg">
+                        <div class="head">2012 - 2014</div>
+                        <div class="text">Huset Kursuscenter</div>
+                        <div class="subtitle">Middelfart</div>
+                        <ul class="list">
+                            <li>Washing dishes, and helping out in the kitchen</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <h3 class="download"><a class="linkz" href="files/cv_jp.pdf" target="_blank">Download my CV here</a></h3>
+        </div>
+    </section>
+
+    <!-- projects section -->
+    <section class="project" id="project">
+        <div class="max-width">
+            <h2 class="title">My projects</h2>
+            <div class="project-content">
+                <div class="container-slides">
+                    <div class="carousel-cell">
+                        <div class="box">
+                            <img src="images/1sem-gameinterface.png" alt="">
+                            <h3>1. Semesterproject</h3>
+                            <p>The overall purpose of this project was to get aquainted and work with <b>object oriented programming</b>. The topic was game development based on the classic game: The World Of Zuul.</p>
+                            <br><p><a class="linkz" href="https://github.com/JosefPham/Sem1_WorldOfZuul" target="_blank">GitHub repository can be seen here.</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="box">
+                            <img src="images/2sem-login.png" alt="">
+                            <h3>2. Semesterproject</h3>
+                            <p>This project involves a case from the company EG Team Online to develop a public service system that digitally manages cases for disabled and vulnerable adults. We prioritized the functions to create cases in the system and being able to save these. In this project, we got familiar with <b>JavaFX</b> to design the frontend and to work with databases(<b>PostgreSQL</b>) to save persistent data.  </p>
+                            <br><p><a class="linkz" href="https://github.com/JosefPham/Sem2_SensumUdred" target="_blank">GitHub repository can be seen here.</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="box">
+                            <img src="images/3sem-frontpage.PNG" alt="">
+                            <h3>3. Semesterproject</h3>
+                            <p>The purpose for this project was to explore and get familiar with the <b>client-server model</b>. The project resulted in a chat application with real time messaging.</p>
+                            <br><p><a class="linkz" href="https://github.com/JosefPham/Sem3_SYNChatClient" target="_blank">GitHub repository for the client can be seen here.</a></p>
+                            <p><a class="linkz" href="https://github.com/JosefPham/Sem3_SYNChatServer" target="_blank">GitHub repository for the server can be seen here.</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="box">
+                            <img src="images/4sem-game.png" alt="">
+                            <h3>4. Semesterproject</h3>
+                            <p>This project was about working with <b>component-based software engineering</b>. We utilized the NetBeans platform, and developed a system using NetBeans modules. The result was a game based on the classic game: Asteroids.</p>
+                            <br><p><a class="linkz" href="https://github.com/JosefPham/Sem4_CBSE" target="_blank">GitHub repository can be seen here.</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="box">
+                            <img src="images/4sem-conemodel.png" alt="">
+                            <h3>4. Semesterproject, Independent Study Activity</h3>
+                            <p>This independent study activity was made in collaboration with the SDU Formula Student Team, SDU Vikings, who had a goal to make a remote-controlled car perform an acceleration test autonomously. </p>
+                            <br><p>In this project, we developed and studied an approach for the detection and classification of multiple cones, that would be used in the acceleration test. The aim was to investigate the possibilites of using machine learning-based algorithms for cone detection for a driverless vehicle.</p>
+                            <br><p><a class="linkz" href="https://github.com/JosefPham/Sem4_DriverlessProject" target="_blank">GitHub repository can be seen here.</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="box">
+                            <img src="images/5sem-frontpage.png" alt="">
+                            <h3>5. Semesterproject</h3>
+                            <p>The purpose of this project was to explore and work wit the different web technologies taught in the semester: HTML, CSS, JavaScript, Node etc.</p>
+                            <br><p>The project resulted in a webapplication build with angular. The frontend communicates with a server build with Node and Express, and a NoSQL to store and retrieve registered users.</p>
+                            <br><p><a class="linkz" href="https://github.com/JosefPham/SB5-TEC19" target="_blank">GitHub repository can be seen here.</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="box">
+                            <img src="images/bp-frontpage.png" alt="">
+                            <h3>6. Semester, Bachelorproject</h3>
+                            <p>The bachelorproject was made in collaboration with the company Swarco Technology. The company develops and markets traffic controllers and communication equipment for traffic management systems and has customers in more than 50 countries.</p>
+                            <br><p>We developed an Android application according to their desire and requirements - the application would help optimize the work flow in the company's production and also help to manage and track their storage.</p>
+                            <br><p>The project ended with great success - we released a fully functioning application that is still being used in the company today.</p>
+                            <br><p><a class="linkz" href="https://github.com/Staerdahl/Swarco-App" target="_blank">GitHub repository can be seen here.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact session -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact information</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="icons">
+                        <div class="row">
+                            <img src="images/home.svg">
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="subtitle">8381 Tilst, Aarhus</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img src="images/mail.svg">
+                            <div class="info">
+                                <div class="head">Mail</div>
+                                <div class="subtitle">Josefpham95@gmail.com</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img src="images/phone.svg">
+                            <div class="info">
+                                <div class="head">Phone</div>
+                                <div class="subtitle">+45 61 77 26 71</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="social">
+                                <a href="https://www.facebook.com/josef.pham"><img src="images/facebook.svg"></a>
+                                <a href="https://www.linkedin.com/in/josefpham/"><img src="images/linkedin.svg"></a>
+                                <a href="https://github.com/JosefPham"><img src="images/github.svg"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="mailto:josefpham95@gmail.com?subject=Contact msg from portfolio" method="POST" enctype="text/plain">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" name="name" placeholder="Name" required>
+                            </div>
+                            <div class="field mail">
+                                <input type="mail" name="mail" placeholder="Mail" required>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="field">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" name="message" placeholder="Input message here . . ." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit" value="Send">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://kit.fontawesome.com/7cf1c6e848.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
