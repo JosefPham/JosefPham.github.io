@@ -170,7 +170,7 @@ section .title::after{
 .about .about-content .left img{
     /* width: 60%; */
     height: 400px;
-    width: 300px;
+    width: 350px;
     border-radius: 6px;
 }
 .about .about-content .left{
